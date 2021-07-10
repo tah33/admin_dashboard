@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="{{asset('assets/vendors/font_awesome/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/backend/css/jqvmap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/backend/css/summernote-bs4.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/backend/css/components.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/backend/css/toastr.min.css') }}">
     <link rel="stylesheet" href="{{asset('assets/backend/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/backend/css/components.css')}}">
     @stack('css')
 </head>
 <body>
@@ -30,7 +29,5 @@
 <script src="{{asset('assets/backend/js/summernote-bs4.js')}}"></script>
 <script src="{{asset('assets/backend/js/scripts.js')}}"></script>
 <script src="{{asset('assets/backend/js/custom.js')}}"></script>
-<script src="{{ asset('assets/backend/js/toastr.min.js') }}"></script>
-{!! Toastr::message() !!}
 </body>
 </html>
